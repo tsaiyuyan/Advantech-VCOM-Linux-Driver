@@ -25,8 +25,8 @@ var searchData=
   ['vc_5fcommon_5fioctl_22',['vc_common_ioctl',['../vc__client__common_8h.html#a894cf2bcc05ccb9ed65e2dbec820850d',1,'vc_common_ioctl(struct vc_attr *attr):&#160;vc_client_common.c'],['../vc__client__common_8c.html#a894cf2bcc05ccb9ed65e2dbec820850d',1,'vc_common_ioctl(struct vc_attr *attr):&#160;vc_client_common.c']]],
   ['vc_5fcommon_5fopen_23',['vc_common_open',['../vc__client__common_8c.html#a23cb3c709c2f27a1095a499f9e0d88aa',1,'vc_common_open(struct vc_attr *attr):&#160;vc_client_common.c'],['../vc__client__common_8h.html#a23cb3c709c2f27a1095a499f9e0d88aa',1,'vc_common_open(struct vc_attr *attr):&#160;vc_client_common.c']]],
   ['vc_5fcommon_5fpurge_24',['vc_common_purge',['../vc__client__common_8c.html#a4cd5a2d4a72931fd653f97f11965ab24',1,'vc_common_purge(struct vc_attr *attr, unsigned int pflags):&#160;vc_client_common.c'],['../vc__client__common_8h.html#a4cd5a2d4a72931fd653f97f11965ab24',1,'vc_common_purge(struct vc_attr *attr, unsigned int pflags):&#160;vc_client_common.c']]],
-  ['vc_5fcommon_5frecv_25',['vc_common_recv',['../vc__client__common_8c.html#a5b5f9526ce9cd49dd60a62135d1e6811',1,'vc_common_recv(struct vc_attr *attr, char *buf, int len):&#160;vc_client_common.c'],['../vc__client__common_8h.html#a5b5f9526ce9cd49dd60a62135d1e6811',1,'vc_common_recv(struct vc_attr *attr, char *buf, int len):&#160;vc_client_common.c']]],
-  ['vc_5fcommon_5fxmit_26',['vc_common_xmit',['../vc__client__common_8c.html#a0efe7cc019a8f249ef9c36fb16bbdf4a',1,'vc_common_xmit(struct vc_attr *attr):&#160;vc_client_common.c'],['../vc__client__common_8h.html#a0efe7cc019a8f249ef9c36fb16bbdf4a',1,'vc_common_xmit(struct vc_attr *attr):&#160;vc_client_common.c']]],
+  ['vc_5fcommon_5frecv_25',['vc_common_recv',['../vc__client__common_8h.html#a5b5f9526ce9cd49dd60a62135d1e6811',1,'vc_common_recv(struct vc_attr *attr, char *buf, int len):&#160;vc_client_common.c'],['../vc__client__common_8c.html#a5b5f9526ce9cd49dd60a62135d1e6811',1,'vc_common_recv(struct vc_attr *attr, char *buf, int len):&#160;vc_client_common.c']]],
+  ['vc_5fcommon_5fxmit_26',['vc_common_xmit',['../vc__client__common_8h.html#a0efe7cc019a8f249ef9c36fb16bbdf4a',1,'vc_common_xmit(struct vc_attr *attr):&#160;vc_client_common.c'],['../vc__client__common_8c.html#a0efe7cc019a8f249ef9c36fb16bbdf4a',1,'vc_common_xmit(struct vc_attr *attr):&#160;vc_client_common.c']]],
   ['vc_5fconnect_27',['vc_connect',['../vc__client__netdown_8c.html#abb2273ef64113a9b4f34440d4e848de9',1,'vc_client_netdown.c']]],
   ['vc_5fext_5fsize_28',['vc_ext_size',['../vcom__proto_8h.html#a0132635befc6ca8507c3e78089877d76',1,'vcom_proto.h']]],
   ['vc_5fidle_5fclose_29',['vc_idle_close',['../vc__client__idle_8c.html#a7878613dee297c74fd1921080c861b59',1,'vc_client_idle.c']]],
@@ -45,7 +45,7 @@ var searchData=
   ['vc_5fnetdown_5finit_42',['vc_netdown_init',['../vc__client__netdown_8c.html#a866938c7dd5125fd38e7a92a1bc5f265',1,'vc_client_netdown.c']]],
   ['vc_5fnetdown_5fname_43',['vc_netdown_name',['../vc__client__netdown_8c.html#a7a0d62e82dfdadf6136ad4002cb9e05d',1,'vc_client_netdown.c']]],
   ['vc_5fnetdown_5fopen_44',['vc_netdown_open',['../vc__client__netdown_8c.html#aef04b59380c343bf075ae922f56dfd71',1,'vc_client_netdown.c']]],
-  ['vc_5fnetdown_5fops_45',['vc_netdown_ops',['../vc__client__netdown_8h.html#a0e2fc17c97467cfb502b4baa1af697f9',1,'vc_netdown_ops():&#160;vc_client_netdown.c'],['../vcom_8h.html#a0e2fc17c97467cfb502b4baa1af697f9',1,'vc_netdown_ops():&#160;vc_client_netdown.c'],['../vc__client__netdown_8c.html#a0e2fc17c97467cfb502b4baa1af697f9',1,'vc_netdown_ops():&#160;vc_client_netdown.c']]],
+  ['vc_5fnetdown_5fops_45',['vc_netdown_ops',['../vc__client__netdown_8c.html#a0e2fc17c97467cfb502b4baa1af697f9',1,'vc_netdown_ops():&#160;vc_client_netdown.c'],['../vc__client__netdown_8h.html#a0e2fc17c97467cfb502b4baa1af697f9',1,'vc_netdown_ops():&#160;vc_client_netdown.c'],['../vcom_8h.html#a0e2fc17c97467cfb502b4baa1af697f9',1,'vc_netdown_ops():&#160;vc_client_netdown.c']]],
   ['vc_5fnetup_5fclose_46',['vc_netup_close',['../vc__client__netup_8c.html#af607238c27e728c1d170b07fc4d01ab3',1,'vc_client_netup.c']]],
   ['vc_5fnetup_5ferror_47',['vc_netup_error',['../vc__client__netup_8c.html#a31cbfd396fb712e331edae06c4dc6fae',1,'vc_client_netup.c']]],
   ['vc_5fnetup_5finit_48',['vc_netup_init',['../vc__client__netup_8c.html#a8b2e414e46141dcfeea39e7654d6b093',1,'vc_client_netup.c']]],
@@ -60,7 +60,7 @@ var searchData=
   ['vc_5fops_57',['vc_ops',['../structvc__ops.html',1,'']]],
   ['vc_5fpack_5fsize_58',['vc_pack_size',['../vcom__proto_8h.html#af20749a456cf8638b17301fc2f35ee1a',1,'vcom_proto.h']]],
   ['vc_5fpause_5fname_59',['vc_pause_name',['../vc__client__pause_8c.html#ac82fc7521b54e1a35acb6404c2d30753',1,'vc_client_pause.c']]],
-  ['vc_5fpause_5fops_60',['vc_pause_ops',['../vc__client__pause_8c.html#ad640224d32c99db3398a20d2508a3ae4',1,'vc_pause_ops():&#160;vc_client_pause.c'],['../vc__client__pause_8h.html#ad640224d32c99db3398a20d2508a3ae4',1,'vc_pause_ops():&#160;vc_client_pause.c']]],
+  ['vc_5fpause_5fops_60',['vc_pause_ops',['../vc__client__pause_8h.html#ad640224d32c99db3398a20d2508a3ae4',1,'vc_pause_ops():&#160;vc_client_pause.c'],['../vc__client__pause_8c.html#ad640224d32c99db3398a20d2508a3ae4',1,'vc_pause_ops():&#160;vc_client_pause.c']]],
   ['vc_5fproto_5fhdr_61',['vc_proto_hdr',['../structvc__proto__hdr.html',1,'']]],
   ['vc_5fproto_5fpacket_62',['vc_proto_packet',['../structvc__proto__packet.html',1,'']]],
   ['vc_5fproto_5fport_63',['VC_PROTO_PORT',['../vcom_8h.html#afabc0e08e26e5652928ab565da716bc4',1,'vcom.h']]],
@@ -137,6 +137,5 @@ var searchData=
   ['vcom_5fproto_2eh_134',['vcom_proto.h',['../vcom__proto_8h.html',1,'']]],
   ['vcom_5fproto_5fcmd_2eh_135',['vcom_proto_cmd.h',['../vcom__proto__cmd_8h.html',1,'']]],
   ['vcom_5fproto_5fioctl_2eh_136',['vcom_proto_ioctl.h',['../vcom__proto__ioctl_8h.html',1,'']]],
-  ['vcom_5fresp_137',['VCOM_RESP',['../vcom__proto_8h.html#ad3e00442d7566f76a1c9f5abd534ed9b',1,'vcom_proto.h']]],
-  ['virtualfunc_138',['virtualfunc',['../class_my_library_1_1_example.html#a5a45f5e9ef0cb7f5c3d2edfdc9fa9e7a',1,'MyLibrary::Example::virtualfunc()'],['../class_my_library_1_1_subclass_example.html#a987b6a4dbae2ad432d61f554eb1b6d72',1,'MyLibrary::SubclassExample::virtualfunc()']]]
+  ['vcom_5fresp_137',['VCOM_RESP',['../vcom__proto_8h.html#ad3e00442d7566f76a1c9f5abd534ed9b',1,'vcom_proto.h']]]
 ];

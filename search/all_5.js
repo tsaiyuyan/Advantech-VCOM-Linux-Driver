@@ -10,10 +10,7 @@ var searchData=
   ['event_7',['event',['../structvc__ops.html#ac8b7d2ca6693d5b7961652f4c9f659d7',1,'vc_ops']]],
   ['event_5fbuf_5flen_8',['EVENT_BUF_LEN',['../vcom__inotf_8c.html#aeed913698654efe686dffe5d5f23472d',1,'vcom_inotf.c']]],
   ['event_5fsize_9',['EVENT_SIZE',['../vcom__inotf_8c.html#a228783873815e02b069a286af4512aba',1,'vcom_inotf.c']]],
-  ['example_10',['Example',['../class_my_library_1_1_example.html',1,'MyLibrary']]],
-  ['example_20page_11',['Example Page',['../page.html',1,'(Global Namespace)'],['../page1.html',1,'(Global Namespace)']]],
-  ['example_2ehpp_12',['example.hpp',['../example_8hpp.html',1,'']]],
-  ['excp_5freconn_5ftime_13',['EXCP_RECONN_TIME',['../vcom_8h.html#ad0524c99cbb061b47bcc0bb1808df56c',1,'vcom.h']]],
-  ['excp_5fsleeptime_14',['EXCP_SLEEPTIME',['../vcom_8h.html#a46439436a08cbedb5ad346d6c9b2148d',1,'vcom.h']]],
-  ['page_2edox_15',['page.dox',['../example_2page_8dox.html',1,'']]]
+  ['example_20page_10',['Example Page',['../page.html',1,'']]],
+  ['excp_5freconn_5ftime_11',['EXCP_RECONN_TIME',['../vcom_8h.html#ad0524c99cbb061b47bcc0bb1808df56c',1,'vcom.h']]],
+  ['excp_5fsleeptime_12',['EXCP_SLEEPTIME',['../vcom_8h.html#a46439436a08cbedb5ad346d6c9b2148d',1,'vcom.h']]]
 ];

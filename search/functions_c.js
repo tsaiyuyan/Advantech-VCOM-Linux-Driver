@@ -17,7 +17,5 @@ var searchData=
   ['ssl_5fsend_5fsimple_5ftv_14',['ssl_send_simple_tv',['../ssl__select_8h.html#ab48fabc7040bc99b36de362aa4d7b229',1,'ssl_select.h']]],
   ['ssl_5fset_5ffds_15',['ssl_set_fds',['../ssl__select_8c.html#acb09bf8536d7134a3d1fed2502613bca',1,'ssl_set_fds(ssl_info *info, int maxfd, fd_set *rfds, fd_set *wfds):&#160;ssl_select.c'],['../ssl__select_8h.html#acb09bf8536d7134a3d1fed2502613bca',1,'ssl_set_fds(ssl_info *info, int maxfd, fd_set *rfds, fd_set *wfds):&#160;ssl_select.c']]],
   ['sslinfo_5falloc_16',['sslinfo_alloc',['../ssl__select_8c.html#a0c9f6ecec0d085b30e8d50b4d9bee969',1,'sslinfo_alloc(void):&#160;ssl_select.c'],['../ssl__select_8h.html#a0c9f6ecec0d085b30e8d50b4d9bee969',1,'sslinfo_alloc(void):&#160;ssl_select.c']]],
-  ['startup_17',['startup',['../vcom__client_8c.html#a524b131d04a366c69d83eac2c5516b8a',1,'vcom_client.c']]],
-  ['staticfunc_18',['staticfunc',['../class_my_library_1_1_example.html#aabae84f412a0c059e1fb53b176539885',1,'MyLibrary::Example']]],
-  ['super_5flong_5ffunction_5fwith_5flots_5fof_5fparameters_19',['super_long_function_with_lots_of_parameters',['../class_my_library_1_1_subclass_example.html#a4467154e968cd335526d8ca7ee059e6f',1,'MyLibrary::SubclassExample']]]
+  ['startup_17',['startup',['../vcom__client_8c.html#a524b131d04a366c69d83eac2c5516b8a',1,'vcom_client.c']]]
 ];

@@ -23,10 +23,6 @@ var files_dup =
     [ "vcom_proto.h", "vcom__proto_8h.html", "vcom__proto_8h" ],
     [ "vcom_proto_cmd.h", "vcom__proto__cmd_8h.html", null ],
     [ "vcom_proto_ioctl.h", "vcom__proto__ioctl_8h.html", "vcom__proto__ioctl_8h" ],
-    [ "example.hpp", "example_8hpp.html", "example_8hpp" ],
-    [ "subclass-example.hpp", "subclass-example_8hpp.html", [
-      [ "SubclassExample", "class_my_library_1_1_subclass_example.html", "class_my_library_1_1_subclass_example" ]
-    ] ],
     [ "adv_main.c", "adv__main_8c.html", "adv__main_8c" ],
     [ "adv_mmap.c", "adv__mmap_8c.html", "adv__mmap_8c" ],
     [ "adv_uart.c", "adv__uart_8c.html", "adv__uart_8c" ],

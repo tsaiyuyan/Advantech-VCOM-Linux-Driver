@@ -25,24 +25,22 @@
 var NAVTREE =
 [
   [ "VCOM Linux Driver", "index.html", [
-    [ "Doxygen Awesome", "index.html", [
-      [ "Motivation", "index.html#autotoc_md34", null ],
-      [ "Features", "index.html#autotoc_md35", null ],
-      [ "Installation", "index.html#autotoc_md36", [
-        [ "Variants", "index.html#autotoc_md37", null ],
-        [ "Dark Mode Toggle (Experimental)", "index.html#autotoc_md38", null ]
+    [ "Advantech Linux VCOM driver", "index.html", [
+      [ "Introduction", "index.html#autotoc_md29", [
+        [ "Quality", "index.html#autotoc_md30", null ]
       ] ],
-      [ "Examples", "index.html#autotoc_md39", null ],
-      [ "Configuration", "index.html#autotoc_md40", [
-        [ "CSS Variables", "index.html#autotoc_md41", null ],
-        [ "Doxygen generator", "index.html#autotoc_md42", null ]
+      [ "Installation Guide", "index.html#autotoc_md31", [
+        [ "Install Dependancy", "index.html#autotoc_md32", [
+          [ "On Ubuntu based systems", "index.html#autotoc_md33", null ],
+          [ "On OpenSUSE", "index.html#autotoc_md34", null ],
+          [ "On CentOS/RHEL/Fedora/RockyLinux baed systems", "index.html#autotoc_md35", null ]
+        ] ],
+        [ "Configure the installation", "index.html#autotoc_md36", null ],
+        [ "Build source code", "index.html#autotoc_md37", null ],
+        [ "Install Driver to system", "index.html#autotoc_md38", null ]
       ] ],
-      [ "Browser support", "index.html#autotoc_md43", null ],
-      [ "Tips & Tricks", "index.html#autotoc_md44", [
-        [ "Class Diagrams with Graphviz", "index.html#autotoc_md45", null ],
-        [ "Share your own theme customizations", "index.html#autotoc_md46", null ]
-      ] ],
-      [ "Credits", "index.html#autotoc_md47", null ]
+      [ "Starting VCOM", "index.html#autotoc_md39", null ],
+      [ "Appendex", "index.html#autotoc_md40", null ]
     ] ],
     [ "Main components of the Advantech VCOM Linux Driver", "md__github_workspace_doc_components.html", [
       [ "Linux Driver", "md__github_workspace_doc_components.html#autotoc_md1", null ],
@@ -80,30 +78,17 @@ var NAVTREE =
         [ "Checking the VCOM connection status", "md__github_workspace_doc_setup_vcom.html#autotoc_md27", null ]
       ] ]
     ] ],
-    [ "Example Page", "page1.html", [
-      [ "An example section", "page1.html#sec", [
-        [ "The first subsection", "page1.html#subsection1", null ],
-        [ "The second subsection", "page1.html#subsection2", null ]
-      ] ]
-    ] ],
-    [ "Example Page", "page.html", null ],
-    [ "Bug List", "bug.html", null ],
-    [ "Deprecated List", "deprecated.html", null ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ],
-        [ "Enumerator", "namespacemembers_eval.html", null ]
+    [ "Example Page", "page.html", [
+      [ "An example section", "page.html#sec", [
+        [ "The first subsection", "page.html#subsection1", null ],
+        [ "The second subsection", "page.html#subsection2", null ]
       ] ]
     ] ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
       [ "Data Structure Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Data Fields", "functions.html", [
         [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ],
@@ -125,9 +110,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "adv__main_8c.html",
-"jstree_8c.html#a3334ea7060d259dc68bbad7cdbe2521d",
-"structstk__vc.html#af93f4f37fc2ad9c37af4a715423b110c",
-"vcom__monitor_8h.html#ae5ebcf684986dc8c3be3478022609a83"
+"jstree_8h.html#ac023acef62f142e0ece2082c70aae918",
+"structvc__attr.html#ab338c4386b283d46aaceba94180dd6d5",
+"vcom__proto_8h.html#a304cee5e1d89a04e0e861f7a30493bd3"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

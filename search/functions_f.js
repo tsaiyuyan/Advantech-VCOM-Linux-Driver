@@ -1,8 +1,8 @@
 var searchData=
 [
   ['vc_5fcommon_5fclose_0',['vc_common_close',['../vc__client__common_8h.html#ad5541e2be95b4599e822af92732eb3b1',1,'vc_common_close(struct vc_attr *attr):&#160;vc_client_common.c'],['../vc__client__common_8c.html#ad5541e2be95b4599e822af92732eb3b1',1,'vc_common_close(struct vc_attr *attr):&#160;vc_client_common.c']]],
-  ['vc_5fcommon_5fioctl_1',['vc_common_ioctl',['../vc__client__common_8c.html#a894cf2bcc05ccb9ed65e2dbec820850d',1,'vc_common_ioctl(struct vc_attr *attr):&#160;vc_client_common.c'],['../vc__client__common_8h.html#a894cf2bcc05ccb9ed65e2dbec820850d',1,'vc_common_ioctl(struct vc_attr *attr):&#160;vc_client_common.c']]],
-  ['vc_5fcommon_5fopen_2',['vc_common_open',['../vc__client__common_8h.html#a23cb3c709c2f27a1095a499f9e0d88aa',1,'vc_common_open(struct vc_attr *attr):&#160;vc_client_common.c'],['../vc__client__common_8c.html#a23cb3c709c2f27a1095a499f9e0d88aa',1,'vc_common_open(struct vc_attr *attr):&#160;vc_client_common.c']]],
+  ['vc_5fcommon_5fioctl_1',['vc_common_ioctl',['../vc__client__common_8h.html#a894cf2bcc05ccb9ed65e2dbec820850d',1,'vc_common_ioctl(struct vc_attr *attr):&#160;vc_client_common.c'],['../vc__client__common_8c.html#a894cf2bcc05ccb9ed65e2dbec820850d',1,'vc_common_ioctl(struct vc_attr *attr):&#160;vc_client_common.c']]],
+  ['vc_5fcommon_5fopen_2',['vc_common_open',['../vc__client__common_8c.html#a23cb3c709c2f27a1095a499f9e0d88aa',1,'vc_common_open(struct vc_attr *attr):&#160;vc_client_common.c'],['../vc__client__common_8h.html#a23cb3c709c2f27a1095a499f9e0d88aa',1,'vc_common_open(struct vc_attr *attr):&#160;vc_client_common.c']]],
   ['vc_5fcommon_5fpurge_3',['vc_common_purge',['../vc__client__common_8c.html#a4cd5a2d4a72931fd653f97f11965ab24',1,'vc_common_purge(struct vc_attr *attr, unsigned int pflags):&#160;vc_client_common.c'],['../vc__client__common_8h.html#a4cd5a2d4a72931fd653f97f11965ab24',1,'vc_common_purge(struct vc_attr *attr, unsigned int pflags):&#160;vc_client_common.c']]],
   ['vc_5fcommon_5frecv_4',['vc_common_recv',['../vc__client__common_8c.html#a5b5f9526ce9cd49dd60a62135d1e6811',1,'vc_common_recv(struct vc_attr *attr, char *buf, int len):&#160;vc_client_common.c'],['../vc__client__common_8h.html#a5b5f9526ce9cd49dd60a62135d1e6811',1,'vc_common_recv(struct vc_attr *attr, char *buf, int len):&#160;vc_client_common.c']]],
   ['vc_5fcommon_5fxmit_5',['vc_common_xmit',['../vc__client__common_8c.html#a0efe7cc019a8f249ef9c36fb16bbdf4a',1,'vc_common_xmit(struct vc_attr *attr):&#160;vc_client_common.c'],['../vc__client__common_8h.html#a0efe7cc019a8f249ef9c36fb16bbdf4a',1,'vc_common_xmit(struct vc_attr *attr):&#160;vc_client_common.c']]],
@@ -36,6 +36,5 @@ var searchData=
   ['vc_5fsync_5finit_33',['vc_sync_init',['../vc__client__sync_8c.html#ac4e870337701e03ff721f05d64809750',1,'vc_client_sync.c']]],
   ['vc_5fsync_5fname_34',['vc_sync_name',['../vc__client__sync_8c.html#a6ff3bdb8596bf87dc270e5f542327074',1,'vc_client_sync.c']]],
   ['vc_5fsync_5fopen_35',['vc_sync_open',['../vc__client__sync_8c.html#a542552cd7be3f10819d7d4d66530f621',1,'vc_client_sync.c']]],
-  ['vc_5fsync_5frecv_36',['vc_sync_recv',['../vc__client__sync_8c.html#a62929a5d4f957d24a43c120435d30dd1',1,'vc_client_sync.c']]],
-  ['virtualfunc_37',['virtualfunc',['../class_my_library_1_1_subclass_example.html#a987b6a4dbae2ad432d61f554eb1b6d72',1,'MyLibrary::SubclassExample::virtualfunc()'],['../class_my_library_1_1_example.html#a5a45f5e9ef0cb7f5c3d2edfdc9fa9e7a',1,'MyLibrary::Example::virtualfunc()']]]
+  ['vc_5fsync_5frecv_36',['vc_sync_recv',['../vc__client__sync_8c.html#a62929a5d4f957d24a43c120435d30dd1',1,'vc_client_sync.c']]]
 ];

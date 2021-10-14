@@ -1,9 +1,5 @@
 var annotated_dup =
 [
-    [ "MyLibrary", "namespace_my_library.html", [
-      [ "Example", "class_my_library_1_1_example.html", "class_my_library_1_1_example" ],
-      [ "SubclassExample", "class_my_library_1_1_subclass_example.html", "class_my_library_1_1_subclass_example" ]
-    ] ],
     [ "_client_info", "struct__client__info.html", "struct__client__info" ],
     [ "_ioctl_data", "struct__ioctl__data.html", "struct__ioctl__data" ],
     [ "_t_treenode", "struct__t__treenode.html", "struct__t__treenode" ],
