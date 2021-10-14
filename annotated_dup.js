@@ -1,0 +1,36 @@
+var annotated_dup =
+[
+    [ "MyLibrary", "namespace_my_library.html", [
+      [ "Example", "class_my_library_1_1_example.html", "class_my_library_1_1_example" ],
+      [ "SubclassExample", "class_my_library_1_1_subclass_example.html", "class_my_library_1_1_subclass_example" ]
+    ] ],
+    [ "_client_info", "struct__client__info.html", "struct__client__info" ],
+    [ "_ioctl_data", "struct__ioctl__data.html", "struct__ioctl__data" ],
+    [ "_t_treenode", "struct__t__treenode.html", "struct__t__treenode" ],
+    [ "_t_treenode_data", "struct__t__treenode__data.html", "struct__t__treenode__data" ],
+    [ "_TTYINFO", "struct___t_t_y_i_n_f_o.html", "struct___t_t_y_i_n_f_o" ],
+    [ "adv_port_att", "structadv__port__att.html", "structadv__port__att" ],
+    [ "adv_port_info", "structadv__port__info.html", "structadv__port__info" ],
+    [ "adv_uart_port", "structadv__uart__port.html", "structadv__uart__port" ],
+    [ "adv_vcom", "structadv__vcom.html", "structadv__vcom" ],
+    [ "jsmn_parser", "structjsmn__parser.html", "structjsmn__parser" ],
+    [ "jsmntok_t", "structjsmntok__t.html", "structjsmntok__t" ],
+    [ "jstreeret", "structjstreeret.html", "structjstreeret" ],
+    [ "list_head", "structlist__head.html", "structlist__head" ],
+    [ "ring_buf", "structring__buf.html", "structring__buf" ],
+    [ "ssl_info", "structssl__info.html", "structssl__info" ],
+    [ "ssl_pwd_data", "structssl__pwd__data.html", "structssl__pwd__data" ],
+    [ "stk_vc", "structstk__vc.html", "structstk__vc" ],
+    [ "vc_attach_data", "structvc__attach__data.html", "structvc__attach__data" ],
+    [ "vc_attach_hflow", "structvc__attach__hflow.html", "structvc__attach__hflow" ],
+    [ "vc_attach_lctrl", "structvc__attach__lctrl.html", "structvc__attach__lctrl" ],
+    [ "vc_attach_param", "structvc__attach__param.html", "structvc__attach__param" ],
+    [ "vc_attach_uint", "structvc__attach__uint.html", "structvc__attach__uint" ],
+    [ "vc_attr", "structvc__attr.html", "structvc__attr" ],
+    [ "vc_monitor", "structvc__monitor.html", "structvc__monitor" ],
+    [ "vc_ops", "structvc__ops.html", "structvc__ops" ],
+    [ "vc_proto_hdr", "structvc__proto__hdr.html", "structvc__proto__hdr" ],
+    [ "vc_proto_packet", "structvc__proto__packet.html", "structvc__proto__packet" ],
+    [ "vc_ssl_cfg", "structvc__ssl__cfg.html", "structvc__ssl__cfg" ],
+    [ "wait_event", "structwait__event.html", "structwait__event" ]
+];

@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['vc_5fbuf_5fattr_0',['VC_BUF_ATTR',['../vcom_8h.html#ab755f87c61239318801c10ff477cc35b',1,'vcom.h']]],
+  ['vc_5fbuf_5frx_1',['VC_BUF_RX',['../vcom_8h.html#a580de36f97d928edd38ddd541531aa0e',1,'vcom.h']]],
+  ['vc_5fbuf_5ftx_2',['VC_BUF_TX',['../vcom_8h.html#a40e1323b97ae1bc1057922cd71887f0b',1,'vcom.h']]],
+  ['vc_5fext_5fsize_3',['vc_ext_size',['../vcom__proto_8h.html#a0132635befc6ca8507c3e78089877d76',1,'vcom_proto.h']]],
+  ['vc_5fmax_5fsknum_4',['VC_MAX_SKNUM',['../vcom_8h.html#a3f876e17a585de2f61489c5e2b876afd',1,'vcom.h']]],
+  ['vc_5fpack_5fsize_5',['vc_pack_size',['../vcom__proto_8h.html#af20749a456cf8638b17301fc2f35ee1a',1,'vcom_proto.h']]],
+  ['vc_5fproto_5fport_6',['VC_PROTO_PORT',['../vcom_8h.html#afabc0e08e26e5652928ab565da716bc4',1,'vcom.h']]],
+  ['vc_5fpull_5fpsec_7',['VC_PULL_PSEC',['../vcom_8h.html#a5976e5e934cc6d8bd9027d98dfbf1eb6',1,'vcom.h']]],
+  ['vc_5fpull_5fpusec_8',['VC_PULL_PUSEC',['../vcom_8h.html#a6d5695d65346faaabf90129818a61a7d',1,'vcom.h']]],
+  ['vc_5fpull_5ftime_9',['VC_PULL_TIME',['../vcom_8h.html#af00c75872399029215bba4d2840dc211',1,'vcom.h']]],
+  ['vc_5fskopt_5fblock_10',['VC_SKOPT_BLOCK',['../vcom_8h.html#adf408fd7e6e5ffb685a54f73b03a2937',1,'vcom.h']]],
+  ['vc_5fskopt_5fdiskalive_11',['VC_SKOPT_DISKALIVE',['../vcom_8h.html#a515bcfff0540b582895fe471a84a5f01',1,'vcom.h']]],
+  ['vc_5fskopt_5fenkalive_12',['VC_SKOPT_ENKALIVE',['../vcom_8h.html#a17416c4ed035286073573d75aa4b4db8',1,'vcom.h']]],
+  ['vc_5fskopt_5fnonblock_13',['VC_SKOPT_NONBLOCK',['../vcom_8h.html#a75b6ac0539219fbbc4853636706a2073',1,'vcom.h']]],
+  ['vc_5fssl_5fproxy_14',['VC_SSL_PROXY',['../vcom_8h.html#a0f1c8d1a956f0cbff347d122007f8829',1,'vcom.h']]],
+  ['vc_5ftime_5fused_15',['VC_TIME_USED',['../vcom_8h.html#aab0fbebb9825981d82aa4dc04e7eb345',1,'vcom.h']]],
+  ['vcom_5fmagic_16',['VCOM_MAGIC',['../vcom__proto_8h.html#a958186245d7d54acdd5c6261da5debbd',1,'vcom_proto.h']]],
+  ['vcom_5fmajor_17',['VCOM_MAJOR',['../adv__uart_8c.html#a9552354aa5ba7354ff7cf94924f751a5',1,'adv_uart.c']]],
+  ['vcom_5fminor_18',['VCOM_MINOR',['../adv__uart_8c.html#a6b0a55d232a50d87b84705733b991d09',1,'adv_uart.c']]],
+  ['vcom_5fports_19',['VCOM_PORTS',['../advconf_8h.html#a559894044feefe2da6059998f776435a',1,'advconf.h']]]
+];
