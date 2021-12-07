@@ -1,4 +1,11 @@
 # Advantech Linux VCOM driver
+
+[![CI platform build test](https://github.com/tsaiyuyan/Advantech-VCOM-Linux-Driver/actions/workflows/platform_build.yml/badge.svg)](https://github.com/tsaiyuyan/Advantech-VCOM-Linux-Driver/actions/workflows/platform_build.yml)
+
+[![CodeQL](https://github.com/tsaiyuyan/Advantech-VCOM-Linux-Driver/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/tsaiyuyan/Advantech-VCOM-Linux-Driver/actions/workflows/codeql-analysis.yml)
+
+[![Doxygenize](https://github.com/tsaiyuyan/Advantech-VCOM-Linux-Driver/actions/workflows/Doxygenize.yml/badge.svg)](https://github.com/tsaiyuyan/Advantech-VCOM-Linux-Driver/actions/workflows/Doxygenize.yml)
+
 ## Introduction
 The Linux VCOM driver for Advantech Device Servers
 Support extended featurs:
