@@ -1,0 +1,38 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI platform build test
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  ubuntu_build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: make
+      run: make
+    - name: make clean
+      run: make clean
+#  centos_build:
+#    runs-on: ubuntu-latest
+#    container: docker.io/centos:latest
+#    steps:
+#    - uses: actions/checkout@v2
+#
+#    - name: intall deps
+#      run: |
+#        yum install -y wget tar gcc automake autoconf libtool make openssl openssl-devel 
+#        yum install -y kernel-headers --disableexcludes=all
+#    - name: make
+#      run: make
+#    - name: make clean
+#      run: make clean
