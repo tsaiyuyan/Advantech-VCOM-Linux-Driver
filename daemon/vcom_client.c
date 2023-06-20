@@ -35,6 +35,7 @@ void * stk_mon;
 struct vc_monitor vc_mon;
 #endif
 
+#ifdef _VCOM_SUPPORT_TLS
 static int custom_verify_callback (int ok, X509_STORE_CTX *store)
 {
 
@@ -72,6 +73,7 @@ static int custom_verify_callback (int ok, X509_STORE_CTX *store)
 
 	return ok;
 }
+#endif
 
 static int recv_second_chance(int sock, char * buf, int buflen)
 {
@@ -191,11 +193,15 @@ struct vc_ops * vc_recv_desp(struct vc_attr *port)
 	}
 		
 	if( packet_len < 0){
-		return stk_curnt(stk)->err(port, "Wrong VCOM len", packet_len);
+		//return stk_curnt(stk)->err(port, "Wrong VCOM len", packet_len);
+		stk_excp(stk, "Wrong VCOM len %d", packet_len);
+		return stk_curnt(stk)->init(port);
 	}else if(packet_len > 0){
 		int __ret;
 		if(packet_len > (RBUF_SIZE - hdr_len)){
-			return stk_curnt(stk)->err(port, "payload is too long", packet_len);
+			//return stk_curnt(stk)->err(port, "payload is too long", packet_len);
+			stk_excp(stk, "payload is too long %d", packet_len);
+			return stk_curnt(stk)->init(port);
 		}
 
 #ifdef _VCOM_SUPPORT_TLS	
@@ -526,7 +532,8 @@ int main(int argc, char **argv)
 					lrecv += (used > 0)?used:1;	
 				}
 				if(lrecv > VC_PULL_TIME){
-					stk_curnt(stk)->err(&port, "PROTO timeout", 0);
+					stk_excp(stk, "SSL PROTO timeout");
+					stk_curnt(stk)->init(&port);
 					lrecv = 0;
 				}
 			}
@@ -539,7 +546,8 @@ int main(int argc, char **argv)
 			unsigned int used = VC_TIME_USED(tv);
 			lrecv += (used > 0)?used:1;
 			if(lrecv > VC_PULL_TIME){
-				stk_curnt(stk)->err(&port, "PROTO timeout", 0);
+				stk_excp(stk, "TCP PROTO timeout");
+				stk_curnt(stk)->init(&port);
 				lrecv = 0;
 			}
 		}

@@ -8,6 +8,173 @@
 #include "jstree.h"
 
 
+int jstree_string_encode(char *out, int outlen, char * data)
+{
+	int ptr;
+	int memlen = strlen(data) + 1;
+	int i;
+	ptr = 0;
+
+	for(i = 0; i < memlen; i++)
+	{
+		if(data[i] == '\\' ||
+			data[i] == '\"'){
+			if(out && outlen){
+				out[ptr] = '\\';
+			}
+			ptr++;
+
+			if(out && 
+				outlen && 
+				ptr >= outlen){
+				return -1;
+			}
+			
+		}
+
+		if(out && outlen){
+			out[ptr] = data[i];
+		}
+
+		ptr++;
+		if( out && 
+			outlen && 
+			ptr >= outlen){
+
+			return -1;
+		}
+	}
+
+	return ptr - 1;
+}
+
+static int _c_hex(char in)
+{
+	if(in >= '0' && in <= '9'){
+		return in - '0';
+	}else if(in >= 'a' && in <= 'f'){
+		return 10 + in - 'a';
+	}else if(in >= 'A' && in <= 'F'){
+		return 10 + in - 'A';
+	}else{
+		return 0;
+	}
+}
+
+int jstree_string_decode(char * out, int outlen, char * data)
+{
+	int i;
+	int ptr;
+	int memlen = strlen(data) + 1;
+	
+	ptr = i = 0;
+	while(i < memlen){
+		if(data[i] != '\\'){
+			if(out && outlen){
+				out[ptr] = data[i];
+			}
+			ptr++;
+			i++;
+			continue;
+		}
+
+		if( i + 1 >= memlen){
+			return -1;
+		}
+		
+		switch(data[i + 1]){
+				case '\\':
+				case '\"':
+					if(out && outlen && ptr < outlen){
+						out[ptr] = data[i + 1];
+					}
+					i+=2;
+					ptr++;
+					break;
+				case 't':
+					if(out && outlen && ptr < outlen){
+						out[ptr] = '\t';
+					}
+					i+=2;
+					ptr++;
+					break;
+				case 'r':
+					if(out && outlen && ptr < outlen){
+						out[ptr] = '\r';
+					}
+					i+=2;
+					ptr++;
+					break;
+				case 'n':
+					if(out && outlen && ptr < outlen){
+						out[ptr] = '\n';
+					}
+					i+=2;
+					ptr++;
+					break;
+				case 'b':
+					if(out && outlen && ptr < outlen){
+						out[ptr] = '\b';
+					}
+					i+=2;
+					ptr++;
+					break;
+				case 'f':
+					if(out && outlen && ptr < outlen){
+						out[ptr] = '\f';
+					}
+					i+=2;
+					ptr++;
+					break;
+				case 'u':{
+					unsigned short _tmp = 0;
+					if(i + 5 >= memlen){
+						return -1;
+					}
+					_tmp += ((unsigned short)_c_hex(data[i + 2]))<< 12;
+					_tmp += ((unsigned short)_c_hex(data[i + 3])) << 8;
+					_tmp += ((unsigned short)_c_hex(data[i + 4])) << 4;
+					_tmp += (unsigned short)_c_hex(data[i + 5]);
+
+					if(_tmp < 0x80){
+						if(out && outlen && ptr < outlen){
+							out[ptr] = (char)_tmp;
+						}
+						ptr++;
+					}else if(_tmp < 0x800){
+						if(out && outlen && ptr + 1 < outlen){
+							out[ptr] = (unsigned char)(0xc0 | ((_tmp & 0x7c0) >> 6));
+							out[ptr + 1] = (unsigned char)(0x80 | (_tmp & 0x3f));
+						}
+						ptr += 2;
+					}else if(_tmp < 0x10000){
+						if(out && outlen && ptr + 2 < outlen){
+							out[ptr] = (unsigned char)(0xe0 | ((_tmp & 0xf000) >> 12));
+							out[ptr + 1] = (unsigned char)(0x80 | ((_tmp & 0xfc0) >> 6));
+							out[ptr + 2] = (unsigned char)(0x80 | (_tmp & 0x3f));
+						}
+						ptr += 3;
+					}else if(_tmp < 0x200000){
+						out[ptr] = (unsigned char)(0xf0 | ((_tmp & 0x1b0000) >> 18));
+						out[ptr + 1] = (unsigned char)(0xe0 | ((_tmp & 0xf000) >> 12));
+						out[ptr + 2] = (unsigned char)(0x80 | ((_tmp & 0xfc0) >> 6));
+						out[ptr + 3] = (unsigned char)(0x80 | (_tmp & 0x3f));
+						ptr += 4;
+					}
+						
+					i+= 6;
+				}
+				break;
+				default:
+					return -1;
+					break;
+			}
+	}
+	return ptr - 1;
+}
+
+
+
 _tree_node * _alloc_tree_node_type(int type)
 {
 	_tree_node * node;
@@ -44,14 +211,10 @@ _tree_node * _alloc_tree_node_len(int type, const char * data, int datalen)
 	_tree_node * node;
 	node = malloc(sizeof(_tree_node));
 	node->data.type = type;
-	if(data != 0){
-		if(datalen >= 0){
-			node->data.data = malloc(datalen + 1);
-			memcpy(node->data.data, data, datalen);
-			node->data.data[datalen] = '\0';
-		}else{
-			node->data.data = 0;
-		}
+	if(data != 0 && datalen >= 0){
+		node->data.data = malloc(datalen + 1);
+		memcpy(node->data.data, data, datalen);
+		node->data.data[datalen] = '\0';
 	}else{
 		node->data.data = 0;
 	}
@@ -76,7 +239,7 @@ int dumptree(_tree_node * tree, int indent)
 		printf("%s", t->data);
 		return 1;
 	} else if (t->type == JSMN_STRING) {
-		printf("'%s'", t->data);
+		printf("\"%s\"", t->data);
 		return 1;
 	} else if (t->type == JSMN_OBJECT) {
 		j = 0;
@@ -87,6 +250,9 @@ int dumptree(_tree_node * tree, int indent)
 			j += dumptree(tree_ptr, indent+1);
 			printf(":");
 			j += dumptree(tree_ptr->r, indent+1);
+			if(tree_ptr->l != 0){
+				printf(",");
+			}
 			printf("\n");
 			tree_ptr = tree_ptr->l;
 		};
@@ -103,9 +269,16 @@ int dumptree(_tree_node * tree, int indent)
 			for (k = 0; k < indent; k++) printf(" ");
 			//printf("- ");
 			j += dumptree(tree_ptr, indent+1);
+			if(tree_ptr->l != 0){
+				printf(",");
+			}
 			printf("\n");
 			tree_ptr = tree_ptr->l;
 		};
+
+		for (k = 0; k < indent; k++){
+			printf(" ");
+		}
 		printf("]");
 
 		return j+1;
