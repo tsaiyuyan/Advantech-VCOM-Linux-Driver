@@ -2,7 +2,6 @@ var vc__client__netup_8c =
 [
     [ "ADV_THIS", "vc__client__netup_8c.html#a2e89eea191110f21c323ac52de01f099", null ],
     [ "vc_netup_close", "vc__client__netup_8c.html#af607238c27e728c1d170b07fc4d01ab3", null ],
-    [ "vc_netup_error", "vc__client__netup_8c.html#a31cbfd396fb712e331edae06c4dc6fae", null ],
     [ "vc_netup_init", "vc__client__netup_8c.html#a8b2e414e46141dcfeea39e7654d6b093", null ],
     [ "vc_netup_ioctl", "vc__client__netup_8c.html#a85bfa8bc0b6f1b859ef3c6d4daf843a3", null ],
     [ "vc_netup_name", "vc__client__netup_8c.html#ad6f317d959a9bdbb4a18b0b8ee46b417", null ],

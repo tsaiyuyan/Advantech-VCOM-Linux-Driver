@@ -1,7 +1,6 @@
 var structvc__ops =
 [
     [ "close", "structvc__ops.html#ae7e849355430d974cdb0fa170b63aae5", null ],
-    [ "err", "structvc__ops.html#aa6525ca1419922233a1475048183e412", null ],
     [ "event", "structvc__ops.html#ac8b7d2ca6693d5b7961652f4c9f659d7", null ],
     [ "init", "structvc__ops.html#adad0a5633a8d7c1898e91993aa2afdd3", null ],
     [ "ioctl", "structvc__ops.html#a4a53da3cc45d228734d5ec76d21aa603", null ],

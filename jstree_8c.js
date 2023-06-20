@@ -10,6 +10,8 @@ var jstree_8c =
     [ "freejstree", "jstree_8c.html#abbc89d7825f9c51df6908650694968fd", null ],
     [ "get_node_string", "jstree_8c.html#a0062bf0ee30e16d61c7d7a445ff2a96a", null ],
     [ "js2tree", "jstree_8c.html#a946bdaabf806b799c29060ee96116177", null ],
+    [ "jstree_string_decode", "jstree_8c.html#a3a1cc7bb94029d1484991e16451f492d", null ],
+    [ "jstree_string_encode", "jstree_8c.html#ab7e2aa4f4babe6b1632dbc92cb0f8c66", null ],
     [ "next_node", "jstree_8c.html#a74aceddaf3fb520f1ef356b278e76925", null ],
     [ "tree2js", "jstree_8c.html#a65c24417c03bd4a8cc0837c9af542054", null ],
     [ "tree2json", "jstree_8c.html#a1d8d28c5875e6dfc98b914fb5e166dfd", null ]

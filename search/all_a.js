@@ -21,5 +21,7 @@ var searchData=
   ['jstree_2eh_18',['jstree.h',['../jstree_8h.html',1,'']]],
   ['jstree_5fread_19',['jstree_read',['../jstree__read_8h.html#abd73dce768de8563c7178330ef1db335',1,'jstree_read.h']]],
   ['jstree_5fread_2eh_20',['jstree_read.h',['../jstree__read_8h.html',1,'']]],
-  ['jstreeret_21',['jstreeret',['../structjstreeret.html',1,'']]]
+  ['jstree_5fstring_5fdecode_21',['jstree_string_decode',['../jstree_8c.html#a3a1cc7bb94029d1484991e16451f492d',1,'jstree_string_decode(char *out, int outlen, char *data):&#160;jstree.c'],['../jstree_8h.html#a3a1cc7bb94029d1484991e16451f492d',1,'jstree_string_decode(char *out, int outlen, char *data):&#160;jstree.c']]],
+  ['jstree_5fstring_5fencode_22',['jstree_string_encode',['../jstree_8c.html#ab7e2aa4f4babe6b1632dbc92cb0f8c66',1,'jstree_string_encode(char *out, int outlen, char *data):&#160;jstree.c'],['../jstree_8h.html#ab7e2aa4f4babe6b1632dbc92cb0f8c66',1,'jstree_string_encode(char *out, int outlen, char *data):&#160;jstree.c']]],
+  ['jstreeret_23',['jstreeret',['../structjstreeret.html',1,'']]]
 ];
