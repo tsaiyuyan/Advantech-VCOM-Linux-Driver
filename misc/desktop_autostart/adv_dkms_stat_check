@@ -1,0 +1,52 @@
+#!/bin/bash
+
+PASSWORD=
+LINUX_CURRENT=
+LINUX_LATEST=
+UPGRADE_OPTS=("-D" "SHOW_P=1")
+UPGRADE_OPTS+=("-D" "upgrade_type=development")
+
+dkms_install_latest()
+{
+	LINUX_LATEST=$(ls /boot/initrd.img-* -t |head -1|cut -d- -f2- )
+	if [ $LINUX_LATEST =  $LINUX_CURRENT ]
+	then
+		return
+	fi
+	echo ${PASSWORD}|sudo -S dkms install -m advvcom -v 1 -k ${LINUX_LATEST}
+}
+
+LINUX_CURRENT=$(uname -r)
+
+while [ -d /var/lib/dkms/advvcom/ ]
+do
+	grep "Error 1" /var/lib/dkms/advvcom/1/build/make.log
+#	dkms status advvcom | grep added
+	if [ $? = 0 ]
+	then
+		zenity --question --title "Advantech VCOM driver DKMS" --text "Auto-rebuild failed against new kernel\n\nDo you wish to upgrade VCOM driver?"
+		if [ $? = 0 ]
+		then
+			id -u
+			if [ $? ]
+			then
+				sudo -nv 2> /dev/null
+				if [ $? != 0 ]
+				then
+					PASSWORD=$(zenity --password --title "Advantech VCOM driver DKMS")
+				fi
+				#sudo cached
+			fi
+			echo ${PASSWORD} | sudo -S advman -o upgrade "${UPGRADE_OPTS[@]}"\
+			|zenity --progress --text="downloading SRC" --title="Advantech VCOM DKMS upgrade" \
+			--percentage=0 --auto-close
+			echo ${PASSWORD} | sudo -S advman -o start
+			dkms_install_latest
+			continue
+		fi
+		#zenfity question
+	fi
+	# dkms status
+
+	inotifywait -r /var/lib/dkms/advvcom
+done
