@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['create_20tls_20files_20for_20the_20vcom_20driver_0',['Create TLS files for the VCOM Driver',['../md__2github_2workspace_2doc_2create__tls__files__driver.html',1,'']]]
+  ['boot_20uefi_20mok_20and_20dkms_0',['VCOM driver with Secure Boot UEFI, MOK and DKMS',['../md__2github_2workspace_2doc_2secure__boot.html',1,'']]]
 ];

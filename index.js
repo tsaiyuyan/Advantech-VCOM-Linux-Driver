@@ -15,5 +15,6 @@ var index =
     ] ],
     [ "Starting VCOM", "index.html#autotoc_md43", null ],
     [ "DKMS auto-sign with MOK on Secure Boot UEFI systems", "index.html#autotoc_md44", null ],
-    [ "Appendex", "index.html#autotoc_md45", null ]
+    [ "Integration with Systemd", "index.html#autotoc_md45", null ],
+    [ "Appendex", "index.html#autotoc_md46", null ]
 ];

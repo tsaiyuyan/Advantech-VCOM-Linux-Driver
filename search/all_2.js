@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['baud_0',['baud',['../structadv__port__info.html#a4858bb3109a37110e12bd7765d6f18ee',1,'adv_port_info']]],
-  ['begin_1',['begin',['../structring__buf.html#a9320720f4d683cc7c76f800be700ac35',1,'ring_buf::begin'],['../structadv__port__att.html#a9320720f4d683cc7c76f800be700ac35',1,'adv_port_att::begin']]],
-  ['byte_2',['byte',['../structadv__port__info.html#ac3d9a38d247c97018ae68c102a88b513',1,'adv_port_info']]]
+  ['2_20startup_20update_20the_20vcom_20service_0',['2. Startup/update the VCOM service',['../md__2github_2workspace_2doc_2setup__vcom.html#autotoc_md29',1,'']]],
+  ['22_2004_20with_20earlier_20dkms_20systems_1',['On Ubuntu 22.04 with earlier DKMS systems',['../md__2github_2workspace_2doc_2secure__boot.html#autotoc_md20',1,'']]]
 ];

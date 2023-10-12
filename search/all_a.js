@@ -1,27 +1,8 @@
 var searchData=
 [
-  ['js2tree_0',['js2tree',['../jstree_8c.html#a946bdaabf806b799c29060ee96116177',1,'js2tree(const char *js, jsmntok_t *t, size_t count):&#160;jstree.c'],['../jstree_8h.html#a946bdaabf806b799c29060ee96116177',1,'js2tree(const char *js, jsmntok_t *t, size_t count):&#160;jstree.c']]],
-  ['jsmn_2ec_1',['jsmn.c',['../jsmn_8c.html',1,'']]],
-  ['jsmn_2eh_2',['jsmn.h',['../jsmn_8h.html',1,'']]],
-  ['jsmn_5farray_3',['JSMN_ARRAY',['../jsmn_8h.html#a065320719769f9dc1fbe30094e52802fabc4c47216dacf36bd4f64ac3d649d471',1,'jsmn.h']]],
-  ['jsmn_5ferror_5finval_4',['JSMN_ERROR_INVAL',['../jsmn_8h.html#afbbe22e63007677ec9e7837b5c1b80eaa3297b1c54d926ce497b7a20530689171',1,'jsmn.h']]],
-  ['jsmn_5ferror_5fnomem_5',['JSMN_ERROR_NOMEM',['../jsmn_8h.html#afbbe22e63007677ec9e7837b5c1b80eaafa350a2c19cc5fddbfb7c90309d3fe41',1,'jsmn.h']]],
-  ['jsmn_5ferror_5fpart_6',['JSMN_ERROR_PART',['../jsmn_8h.html#afbbe22e63007677ec9e7837b5c1b80eaa851a0e75343c14a13c6893b3727ead16',1,'jsmn.h']]],
-  ['jsmn_5finit_7',['jsmn_init',['../jsmn_8h.html#a8d4a8b3ce5c3d600feea38615b5f9aa6',1,'jsmn_init(jsmn_parser *parser):&#160;jsmn.c'],['../jsmn_8c.html#a8d4a8b3ce5c3d600feea38615b5f9aa6',1,'jsmn_init(jsmn_parser *parser):&#160;jsmn.c']]],
-  ['jsmn_5fobject_8',['JSMN_OBJECT',['../jsmn_8h.html#a065320719769f9dc1fbe30094e52802fa416d6e733082bedc1166f0d66f571867',1,'jsmn.h']]],
-  ['jsmn_5fparse_9',['jsmn_parse',['../jsmn_8h.html#a774f985a9750a10c7e88304e30191e03',1,'jsmn_parse(jsmn_parser *parser, const char *js, size_t len, jsmntok_t *tokens, unsigned int num_tokens):&#160;jsmn.c'],['../jsmn_8c.html#a774f985a9750a10c7e88304e30191e03',1,'jsmn_parse(jsmn_parser *parser, const char *js, size_t len, jsmntok_t *tokens, unsigned int num_tokens):&#160;jsmn.c']]],
-  ['jsmn_5fparser_10',['jsmn_parser',['../structjsmn__parser.html',1,'']]],
-  ['jsmn_5fprimitive_11',['JSMN_PRIMITIVE',['../jsmn_8h.html#a065320719769f9dc1fbe30094e52802fa2550c93fe929f81f30ea9b629ed98742',1,'jsmn.h']]],
-  ['jsmn_5fstring_12',['JSMN_STRING',['../jsmn_8h.html#a065320719769f9dc1fbe30094e52802fad4ea6277c135d9d3377bf8b719779539',1,'jsmn.h']]],
-  ['jsmn_5fundefined_13',['JSMN_UNDEFINED',['../jsmn_8h.html#a065320719769f9dc1fbe30094e52802fa7bc5faeddd33197250cf352af984f185',1,'jsmn.h']]],
-  ['jsmnerr_14',['jsmnerr',['../jsmn_8h.html#afbbe22e63007677ec9e7837b5c1b80ea',1,'jsmn.h']]],
-  ['jsmntok_5ft_15',['jsmntok_t',['../structjsmntok__t.html',1,'']]],
-  ['jsmntype_5ft_16',['jsmntype_t',['../jsmn_8h.html#a065320719769f9dc1fbe30094e52802f',1,'jsmn.h']]],
-  ['jstree_2ec_17',['jstree.c',['../jstree_8c.html',1,'']]],
-  ['jstree_2eh_18',['jstree.h',['../jstree_8h.html',1,'']]],
-  ['jstree_5fread_19',['jstree_read',['../jstree__read_8h.html#abd73dce768de8563c7178330ef1db335',1,'jstree_read.h']]],
-  ['jstree_5fread_2eh_20',['jstree_read.h',['../jstree__read_8h.html',1,'']]],
-  ['jstree_5fstring_5fdecode_21',['jstree_string_decode',['../jstree_8c.html#a3a1cc7bb94029d1484991e16451f492d',1,'jstree_string_decode(char *out, int outlen, char *data):&#160;jstree.c'],['../jstree_8h.html#a3a1cc7bb94029d1484991e16451f492d',1,'jstree_string_decode(char *out, int outlen, char *data):&#160;jstree.c']]],
-  ['jstree_5fstring_5fencode_22',['jstree_string_encode',['../jstree_8c.html#ab7e2aa4f4babe6b1632dbc92cb0f8c66',1,'jstree_string_encode(char *out, int outlen, char *data):&#160;jstree.c'],['../jstree_8h.html#ab7e2aa4f4babe6b1632dbc92cb0f8c66',1,'jstree_string_encode(char *out, int outlen, char *data):&#160;jstree.c']]],
-  ['jstreeret_23',['jstreeret',['../structjstreeret.html',1,'']]]
+  ['gen_5fssl_5faction_5fdirect_0',['gen_ssl_action_direct',['../ssl__select_8c.html#ab874553272858d29cea3cb68eedc2e47',1,'GEN_SSL_ACTION_DIRECT(accept, SSL_accept(info-&gt;ssl), ret==1):&#160;ssl_select.c'],['../ssl__select_8c.html#acfe93ac4ffc43bbd1151285c9d54c7a1',1,'GEN_SSL_ACTION_DIRECT(connect, SSL_connect(info-&gt;ssl), ret==1):&#160;ssl_select.c'],['../ssl__select_8c.html#adc778870375005d84a6b41cf2d5e9687',1,'GEN_SSL_ACTION_DIRECT(recv, SSL_read(info-&gt;ssl, buf, len), ret &gt; 0, void *buf, int len):&#160;ssl_select.c'],['../ssl__select_8c.html#abe3f67f4e845d45869734e0609c24c6b',1,'GEN_SSL_ACTION_DIRECT(send, SSL_write(info-&gt;ssl, buf, len), ret &gt; 0, void *buf, int len):&#160;ssl_select.c'],['../ssl__select_8c.html#ad69ad9aad171209a22fd8396d216a567',1,'GEN_SSL_ACTION_DIRECT:&#160;ssl_select.c']]],
+  ['gen_5fssl_5faction_5fsimple_1',['gen_ssl_action_simple',['../ssl__select_8c.html#a76638d5f3795f23212182662cf38bca6',1,'GEN_SSL_ACTION_SIMPLE(send, ssl_send_simple_tv(info, buf, len, &amp;tv, ssl_errno), void *buf, int len):&#160;ssl_select.c'],['../ssl__select_8c.html#a805efd10eee8f8f338834c204d709960',1,'GEN_SSL_ACTION_SIMPLE(recv, ssl_recv_simple_tv(info, buf, len, &amp;tv, ssl_errno), void *buf, int len):&#160;ssl_select.c'],['../ssl__select_8c.html#a6c4204c5e94aa8c364e2e40cf337eb88',1,'GEN_SSL_ACTION_SIMPLE(connect, ssl_connect_simple_tv(info, &amp;tv, ssl_errno)):&#160;ssl_select.c'],['../ssl__select_8c.html#ac855aefa20541eb976ea7a5cb9915fee',1,'GEN_SSL_ACTION_SIMPLE(accept, ssl_accept_simple_tv(info, &amp;tv, ssl_errno)):&#160;ssl_select.c'],['../ssl__select_8c.html#ad252baf716b6edc06c62793e7c8b5d84',1,'GEN_SSL_ACTION_SIMPLE:&#160;ssl_select.c']]],
+  ['gen_5fssl_5faction_5fsimple_5ftv_2',['gen_ssl_action_simple_tv',['../ssl__select_8c.html#a69dc515136cda5664a6826128d8d8d1e',1,'GEN_SSL_ACTION_SIMPLE_TV:&#160;ssl_select.c'],['../ssl__select_8c.html#ac7747f8c6e815109d7762ba86134c031',1,'GEN_SSL_ACTION_SIMPLE_TV(accept, ssl_accept_direct(info, ssl_errno), ret==1):&#160;ssl_select.c'],['../ssl__select_8c.html#ac81e4d1f6df37edb3e24e4f3b70f178a',1,'GEN_SSL_ACTION_SIMPLE_TV(connect, ssl_connect_direct(info, ssl_errno), ret==1):&#160;ssl_select.c'],['../ssl__select_8c.html#a5561853fa6eacad58e814d7aa07aee5f',1,'GEN_SSL_ACTION_SIMPLE_TV(recv, ssl_recv_direct(info, buf, len, ssl_errno), ret &gt; 0, void *buf, int len):&#160;ssl_select.c'],['../ssl__select_8c.html#aab3a69cbf5ed032541b7e3d217af564d',1,'GEN_SSL_ACTION_SIMPLE_TV(send, ssl_send_direct(info, buf, len, ssl_errno), ret &gt; 0, void *buf, int len):&#160;ssl_select.c']]],
+  ['get_5fnode_5fstring_3',['get_node_string',['../jstree_8c.html#a0062bf0ee30e16d61c7d7a445ff2a96a',1,'get_node_string(_tree_node *node, char *buf, int bufsize):&#160;jstree.c'],['../jstree_8h.html#a0062bf0ee30e16d61c7d7a445ff2a96a',1,'get_node_string(_tree_node *node, char *buf, int bufsize):&#160;jstree.c']]],
+  ['guide_4',['Installation Guide',['../index.html#autotoc_md35',1,'']]]
 ];

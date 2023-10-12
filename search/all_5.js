@@ -1,15 +1,12 @@
 var searchData=
 [
-  ['eki_0',['eki',['../structvc__attr.html#a539dc7d5302cbebfcb28541b7586f082',1,'vc_attr']]],
-  ['eki_5fp_1',['eki_p',['../vcom_8h.html#af9d1b027c2ccbbeb669605891296044d',1,'vcom.h']]],
-  ['end_2',['end',['../structjsmntok__t.html#abce9f5dc9c83f2639b72024fdee5d388',1,'jsmntok_t']]],
-  ['end_5fnode_3',['end_node',['../jstree_8c.html#a3334ea7060d259dc68bbad7cdbe2521d',1,'end_node(_tree_node **node):&#160;jstree.c'],['../jstree_8h.html#a3334ea7060d259dc68bbad7cdbe2521d',1,'end_node(_tree_node **node):&#160;jstree.c']]],
-  ['entry_4',['entry',['../structadv__vcom.html#a4ef581aec076e78508badcec46554189',1,'adv_vcom']]],
-  ['environment64_5',['ENVIRONMENT64',['../advlist_8h.html#a16b3b0513c77d0adac4027feffaaa4ef',1,'advlist.h']]],
-  ['event_6',['event',['../structvc__ops.html#ac8b7d2ca6693d5b7961652f4c9f659d7',1,'vc_ops']]],
-  ['event_5fbuf_5flen_7',['EVENT_BUF_LEN',['../vcom__inotf_8c.html#aeed913698654efe686dffe5d5f23472d',1,'vcom_inotf.c']]],
-  ['event_5fsize_8',['EVENT_SIZE',['../vcom__inotf_8c.html#a228783873815e02b069a286af4512aba',1,'vcom_inotf.c']]],
-  ['example_20page_9',['Example Page',['../page.html',1,'']]],
-  ['excp_5freconn_5ftime_10',['EXCP_RECONN_TIME',['../vcom_8h.html#ad0524c99cbb061b47bcc0bb1808df56c',1,'vcom.h']]],
-  ['excp_5fsleeptime_11',['EXCP_SLEEPTIME',['../vcom_8h.html#a46439436a08cbedb5ad346d6c9b2148d',1,'vcom.h']]]
+  ['baed_20systems_0',['On CentOS/RHEL/Fedora/RockyLinux baed systems',['../index.html#autotoc_md39',1,'']]],
+  ['based_20systems_1',['On Ubuntu based systems',['../index.html#autotoc_md37',1,'']]],
+  ['baud_2',['baud',['../structadv__port__info.html#a4858bb3109a37110e12bd7765d6f18ee',1,'adv_port_info']]],
+  ['begin_3',['begin',['../structring__buf.html#a9320720f4d683cc7c76f800be700ac35',1,'ring_buf::begin'],['../structadv__port__att.html#a9320720f4d683cc7c76f800be700ac35',1,'adv_port_att::begin']]],
+  ['boot_20uefi_20mok_20and_20dkms_4',['VCOM driver with Secure Boot UEFI, MOK and DKMS',['../md__2github_2workspace_2doc_2secure__boot.html',1,'']]],
+  ['boot_20uefi_20systems_5',['DKMS auto-sign with MOK on Secure Boot UEFI systems',['../index.html#autotoc_md44',1,'']]],
+  ['build_20source_20code_6',['Build source code',['../index.html#autotoc_md41',1,'']]],
+  ['building_20ones_20own_20mok_7',['Building ones own MOK',['../md__2github_2workspace_2doc_2secure__boot.html#autotoc_md21',1,'']]],
+  ['byte_8',['byte',['../structadv__port__info.html#ac3d9a38d247c97018ae68c102a88b513',1,'adv_port_info']]]
 ];
