@@ -3,7 +3,7 @@ name: 'build deb-package'
 
 on:
   push:
-    branches: [ debian/sid ]
+    branches: [ main ]
   pull_request:
     branches: [ debian/sid ]
 
@@ -18,23 +18,3 @@ jobs:
       # You may pin to the exact commit or the version.
       # uses: jiro4989/build-deb-action@d38d2efb9670d446ad836cc638d9fe871524af6b
       uses: jiro4989/build-deb-action@v2
-      with:
-        # Package name of debian package.
-        package: 
-        # Directory of release files.
-        package_root: 
-        # Package maintainer name.
-        maintainer: 
-        # Package version.
-        version: 
-        # Package installed size. GitHub Actions set summarized byte size of `package_root` directory when this parameter is empty.
-        installed_size: # optional, default is 
-        # Package dependencies.
-        depends: # optional, default is none
-        # Package architecture.
-        arch: # optional, default is amd64
-        # Package description.
-        desc: # optional, default is no description
-        # Set the compression type used when building. Allowed types gzip, xz, zstd, none. Default is gzip.
-    
-        compress_type: # optional, default is gzip
