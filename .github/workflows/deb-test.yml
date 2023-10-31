@@ -3,9 +3,9 @@ name: 'build deb-package'
 
 on:
   push:
-    branches: [ upstream ]
+    branches: [ debian/sid ]
   pull_request:
-    branches: [ upstream ]
+    branches: [ debian/sid ]
 
 jobs:
   # This workflow contains a single job called "build"
