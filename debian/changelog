@@ -1,0 +1,5 @@
+advvcom (1:1.00.1-0ppa1~ubuntu23.10.1) mantic; urgency=medium
+
+  * convert advvcom-daemon and advvcom-dkms.
+
+ -- Yuyan Tsai <yuyan.tsai@advantech.com.tw>  Thu, 7 Sep 2023 13:40:40 +0800

@@ -1,0 +1,60 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode .
+# export DH_VERBOSE =1
+
+VERSION ?= $(shell dpkg-parsechangelog | sed -rne 's/^Version: ([0-9.]+).*$$/\1/p')
+
+INSTALL_PATH=/usr/src/advtty
+KVER?=/lib/modules/$(shell uname -r)/build
+
+%:
+	dh $@ --with-dkms
+
+override_dh_auto_install:
+# advvcom-dkms
+	dh_install -padvvcom-dkms -X.o -X.ko driver/* usr/src/advvcom-1
+
+# advvcom-daemon
+	dh_installdirs -padvvcom-daemon $(INSTALL_PATH)
+
+# staic install files
+	chmod +x script/advman
+	sed -i 's/\/usr\/local\/advtty/\/usr\/src\/advtty/g' script/advrm script/advls script/adv-eki-tls-create script/advadd script/advman
+
+	dh_strip daemon/vcomd inotify/vcinot advps/advps
+	dh_install -padvvcom-daemon script/advrm $(INSTALL_PATH)
+	dh_install -padvvcom-daemon script/advls $(INSTALL_PATH)
+	dh_install -padvvcom-daemon script/adv-eki-tls-create $(INSTALL_PATH)
+	dh_install -padvvcom-daemon script/advman $(INSTALL_PATH)
+	dh_install -padvvcom-daemon script/advadd $(INSTALL_PATH)
+	dh_install -padvvcom-daemon daemon/vcomd $(INSTALL_PATH)
+	dh_install -padvvcom-daemon inotify/vcinot $(INSTALL_PATH)
+	dh_install -padvvcom-daemon advps/advps $(INSTALL_PATH)
+	dh_install -padvvcom-daemon initd/advttyd $(INSTALL_PATH)	
+	dh_install -padvvcom-daemon keys/*.conf $(INSTALL_PATH)
+
+	dh_link -padvvcom-daemon $(INSTALL_PATH)/advls /sbin/advls
+	dh_link -padvvcom-daemon $(INSTALL_PATH)/advrm /sbin/advrm
+	dh_link -padvvcom-daemon $(INSTALL_PATH)/advadd /sbin/advadd
+	dh_link -padvvcom-daemon $(INSTALL_PATH)/advman /sbin/advman
+	dh_link -padvvcom-daemon $(INSTALL_PATH)/vcinot /sbin/vcinot
+	dh_link -padvvcom-daemon $(INSTALL_PATH)/advps /sbin/advps
+	dh_link -padvvcom-daemon $(INSTALL_PATH)/vcomd /sbin/vcomd
+	dh_link -padvvcom-daemon $(INSTALL_PATH)/adv-eki-tls-create /sbin/adv-eki-tls-create
+
+# needs to backup
+	cp config/advttyd.conf config/advttyd_default.conf
+	cp config/ssl.json config/ssl_default.json
+	dh_install -padvvcom-daemon config/advttyd_default.conf $(INSTALL_PATH)
+	dh_install -padvvcom-daemon config/ssl_default.json $(INSTALL_PATH)
+
+# advvcom-src not need
+# cd debian && install rules.m-a ../$(XDIR)/debian/rules \
+# 	&& cp -r *modules.in* changelog copyright compat *_KVERS_* ../$(XDIR)/debian/ 
+
+# cd debian/advvcom-src/usr/src \
+# 	&& cp -a ../../../advvcom-dkms/usr/src/advvcom-$(VERSION)/driver/* modules/advvcom-src/ \
+# 	&& XZ_OPT=-9 tar --xz -c -f advvcom.tar.xz modules \
+# 	&& rm -rf modules

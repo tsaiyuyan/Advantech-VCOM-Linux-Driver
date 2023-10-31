@@ -1,0 +1,48 @@
+#!/bin/bash
+# Copyright (C) 2018, Advantech Co., Ltd
+
+set -e
+
+INSTALL_PATH="/usr/src/advtty"
+
+cd $INSTALL_PATH
+
+#DSA length for the rootCA.key(private key)
+CA_DSA_LEN=2048
+#life-time of the rootCA.pem public key
+CA_DAYS=1024
+
+create_key()
+{
+	echo "clear files"
+	rm -f *.pem *.csr *.key *.srl .srl
+
+	# make -C ./keys -n
+	openssl ecparam -name prime256v1 -out c_prime256v1.pem
+	openssl ecparam -in c_prime256v1.pem -genkey -noout -out vcom.key
+	openssl ec -in vcom.key -pubout -out vcom_pub.pem
+	openssl dsaparam -genkey -out vcomdsa.pem $CA_DSA_LEN
+	openssl req -new -key vcomdsa.pem -out vcom.csr -config ./vcom.conf
+	openssl dsaparam -genkey -out rootCA.key $CA_DSA_LEN
+	openssl req -x509 -new -nodes -key rootCA.key -sha256 -days $CA_DAYS -out rootCA.pem -config ./rootca.conf
+	openssl x509 -req -in vcom.csr -days $CA_DAYS -CAkey ./rootCA.key -CA ./rootCA.pem -force_pubkey vcom_pub.pem -out vcom_cert.pem -CAcreateserial
+	cat vcom_cert.pem vcom.key > vcom.pem
+	rm -f c_prime256v1.pem vcom.key vcom_pub.pem vcomdsa.pem vcom.csr vcom_cert.pem 
+	echo "created rootCA.key rootCA.srl rootCA.pem vcom.pem finish!"
+}
+
+[ ! -f ./ssl.json ] \
+&& [ ! -f ./rootCA.key ] \
+&& [ ! -f ./rootCA.pem ] \
+&& [ ! -f ./rootCA.srl ] \
+&& [ ! -f ./vcom.pem ] \
+&& create_key
+
+[ ! -f ./advttyd.conf ] \
+&& cp ./advttyd_default.conf ./advttyd.conf
+
+
+[ ! -f ./ssl.json ] \
+&& cp ./ssl_default.json ./ssl.json
+
+exit 0

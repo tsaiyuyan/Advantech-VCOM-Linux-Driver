@@ -1,0 +1,31 @@
+Source: advvcom
+Section: misc
+Priority: optional
+Maintainer: Samuel Cheng <Samuel.Cheng@advantech.com.tw>
+Build-Depends: debhelper, 
+                linux-headers-generic,
+                dkms,
+                openssl,
+                libssl-dev,
+                make,
+                build-essential,
+                dpkg-dev
+Standards-Version: 4.3.0
+Vcs-Browser: https://github.com/saurontech/Advantech-VCOM-Linux-Driver
+Vcs-Git: https://github.com/saurontech/Advantech-VCOM-Linux-Driver.git
+
+Package: advvcom-dkms
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, dkms
+Description: DKMS files to build and install advvcom
+ A Linux TTY driver, witch is an implementation of the VCOM protocol of 
+ the Advantech device server family(EKI-152x, ADAM-457x, and EKI-1511)
+
+Package: advvcom-daemon
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}, advvcom-dkms
+Description: daemon to control advvom driver
+ Daemon to Control A Linux TTY driver, witch is an implementation of 
+ the VCOM protocol of the Advantech device server family.
