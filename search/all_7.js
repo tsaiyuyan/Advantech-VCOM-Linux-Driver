@@ -22,10 +22,11 @@ var searchData=
   ['dkms_20systems_19',['On Ubuntu 22.04 with earlier DKMS systems',['../md__2github_2workspace_2doc_2secure__boot.html#autotoc_md20',1,'']]],
   ['dkms_20to_20auto_20sign_20drivers_20',['Confiugre DKMS to auto-sign drivers',['../md__2github_2workspace_2doc_2secure__boot.html#autotoc_md19',1,'']]],
   ['do_5fcheck_21',['do_check',['../vcom__proto__ioctl_8h.html#a019db9d007babbb1ea09e6da0aeb6a92',1,'vcom_proto_ioctl.h']]],
-  ['driver_22',['driver',['../index.html',1,'Advantech Linux VCOM driver'],['../md__2github_2workspace_2doc_2create__tls__files__driver.html#autotoc_md13',1,'Create a new &quot;public/private key pair&quot; for a VCOM driver'],['../md__2github_2workspace_2doc_2create__tls__files__driver.html',1,'Create TLS files for the VCOM Driver'],['../md__2github_2workspace_2doc_2components.html#autotoc_md1',1,'Linux Driver'],['../md__2github_2workspace_2doc_2components.html',1,'Main components of the Advantech VCOM Linux Driver']]],
-  ['driver_20to_20system_23',['Install Driver to system',['../index.html#autotoc_md42',1,'']]],
-  ['driver_20with_20secure_20boot_20uefi_20mok_20and_20dkms_24',['VCOM driver with Secure Boot UEFI, MOK and DKMS',['../md__2github_2workspace_2doc_2secure__boot.html',1,'']]],
-  ['drivers_25',['Confiugre DKMS to auto-sign drivers',['../md__2github_2workspace_2doc_2secure__boot.html#autotoc_md19',1,'']]],
-  ['dump_26',['dump',['../jstree_8h.html#a6f59be3b53be3ed996acdbf32fa7e00f',1,'dump(const char *js, jsmntok_t *t, size_t count, int indent):&#160;jstree.c'],['../jstree_8c.html#a6f59be3b53be3ed996acdbf32fa7e00f',1,'dump(const char *js, jsmntok_t *t, size_t count, int indent):&#160;jstree.c']]],
-  ['dumptree_27',['dumptree',['../jstree_8h.html#aaa1a1ffa87c552ec538e842d3d74b721',1,'dumptree(_tree_node *tree, int indent):&#160;jstree.c'],['../jstree_8c.html#aaa1a1ffa87c552ec538e842d3d74b721',1,'dumptree(_tree_node *tree, int indent):&#160;jstree.c']]]
+  ['driver_22',['Driver',['../md__2github_2workspace_2doc_2create__tls__files__driver.html',1,'Create TLS files for the VCOM Driver'],['../md__2github_2workspace_2doc_2components.html#autotoc_md1',1,'Linux Driver'],['../md__2github_2workspace_2doc_2components.html',1,'Main components of the Advantech VCOM Linux Driver']]],
+  ['driver_23',['driver',['../index.html',1,'Advantech Linux VCOM driver'],['../md__2github_2workspace_2doc_2create__tls__files__driver.html#autotoc_md13',1,'Create a new &quot;public/private key pair&quot; for a VCOM driver']]],
+  ['driver_20to_20system_24',['Install Driver to system',['../index.html#autotoc_md42',1,'']]],
+  ['driver_20with_20secure_20boot_20uefi_20mok_20and_20dkms_25',['VCOM driver with Secure Boot UEFI, MOK and DKMS',['../md__2github_2workspace_2doc_2secure__boot.html',1,'']]],
+  ['drivers_26',['Confiugre DKMS to auto-sign drivers',['../md__2github_2workspace_2doc_2secure__boot.html#autotoc_md19',1,'']]],
+  ['dump_27',['dump',['../jstree_8c.html#a6f59be3b53be3ed996acdbf32fa7e00f',1,'dump(const char *js, jsmntok_t *t, size_t count, int indent):&#160;jstree.c'],['../jstree_8h.html#a6f59be3b53be3ed996acdbf32fa7e00f',1,'dump(const char *js, jsmntok_t *t, size_t count, int indent):&#160;jstree.c']]],
+  ['dumptree_28',['dumptree',['../jstree_8c.html#aaa1a1ffa87c552ec538e842d3d74b721',1,'dumptree(_tree_node *tree, int indent):&#160;jstree.c'],['../jstree_8h.html#aaa1a1ffa87c552ec538e842d3d74b721',1,'dumptree(_tree_node *tree, int indent):&#160;jstree.c']]]
 ];

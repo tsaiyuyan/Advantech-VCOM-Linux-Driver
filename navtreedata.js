@@ -57,12 +57,12 @@ var NAVTREE =
       [ "Creating the TLS files", "md__2github_2workspace_2doc_2setup__tls__for__eki.html#autotoc_md23", null ]
     ] ],
     [ "Setup and start the VCOM Service", "md__2github_2workspace_2doc_2setup__vcom.html", [
-      [ "1. Add/Remove VCOM connections", "md__2github_2workspace_2doc_2setup__vcom.html#autotoc_md25", [
+      [ "Add/Remove VCOM connections", "md__2github_2workspace_2doc_2setup__vcom.html#autotoc_md25", [
         [ "Add connections to the VCOM connection map", "md__2github_2workspace_2doc_2setup__vcom.html#autotoc_md26", null ],
         [ "Remove unwanted connections from the VCOM connectoin map", "md__2github_2workspace_2doc_2setup__vcom.html#autotoc_md27", null ],
         [ "List the connection map", "md__2github_2workspace_2doc_2setup__vcom.html#autotoc_md28", null ]
       ] ],
-      [ "2. Startup/update the VCOM service", "md__2github_2workspace_2doc_2setup__vcom.html#autotoc_md29", [
+      [ "Startup/update the VCOM service", "md__2github_2workspace_2doc_2setup__vcom.html#autotoc_md29", [
         [ "Startup/updating the service with the current map", "md__2github_2workspace_2doc_2setup__vcom.html#autotoc_md30", null ],
         [ "Checking the VCOM connection status", "md__2github_2workspace_2doc_2setup__vcom.html#autotoc_md31", null ]
       ] ]
@@ -99,9 +99,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "adv__main_8c.html",
-"jstree_8c.html#a32eb0b7ac69d764f37a746f54bf6bc6d",
-"structvc__attach__data.html",
-"vcom__monitor__dbg_8h.html#a5e86564eba063d0cc027e7133f762b3d"
+"jstree_8c.html#aaa1a1ffa87c552ec538e842d3d74b721",
+"structvc__attach__hflow.html#a267acbcf206882e70224116ff2f51bbb",
+"vcom__monitor__pre__stat_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

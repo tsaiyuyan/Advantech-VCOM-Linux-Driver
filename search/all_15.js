@@ -15,5 +15,5 @@ var searchData=
   ['rockylinux_20baed_20systems_12',['On CentOS/RHEL/Fedora/RockyLinux baed systems',['../index.html#autotoc_md39',1,'']]],
   ['rootca_13',['rootca',['../structvc__ssl__cfg.html#a58dc35dc647e5206741571861a4406f2',1,'vc_ssl_cfg']]],
   ['rootca_20public_20private_20key_20and_20key_20pair_20files_14',['Create a new set &quot;RootCA public/private key&quot; and &quot;key-pair files&quot;',['../md__2github_2workspace_2doc_2create__tls__files__driver.html#autotoc_md14',1,'']]],
-  ['rx_15',['rx',['../structadv__vcom.html#ae6ae9c513f9ed7cc9852a5b779a318a8',1,'adv_vcom::rx'],['../structadv__uart__port.html#a7908787542ec2845520f279deb74a624',1,'adv_uart_port::rx'],['../structvc__attr.html#ae6ae9c513f9ed7cc9852a5b779a318a8',1,'vc_attr::rx']]]
+  ['rx_15',['rx',['../structvc__attr.html#ae6ae9c513f9ed7cc9852a5b779a318a8',1,'vc_attr::rx'],['../structadv__uart__port.html#a7908787542ec2845520f279deb74a624',1,'adv_uart_port::rx'],['../structadv__vcom.html#ae6ae9c513f9ed7cc9852a5b779a318a8',1,'adv_vcom::rx']]]
 ];

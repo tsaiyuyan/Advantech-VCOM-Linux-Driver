@@ -1,13 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"vcom__monitor__dbg_8h.html#a5e86564eba063d0cc027e7133f762b3d":[9,0,1,0,2,3],
-"vcom__monitor__dbg_8h.html#a678a3eeaad8e6953692c787e75a1a0a0":[9,0,1,0,2,1],
-"vcom__monitor__dbg_8h.html#a849adc9d20371988bb26f86618fa75ba":[9,0,1,0,2,5],
-"vcom__monitor__dbg_8h.html#ab433d7f8c31175757a13d449a9237932":[9,0,1,0,2,6],
-"vcom__monitor__dbg_8h.html#aca9a86aa965479e2ac074a73353b4596":[9,0,1,0,2,9],
-"vcom__monitor__dbg_8h.html#ae5ebcf684986dc8c3be3478022609a83":[9,0,1,0,2,8],
-"vcom__monitor__dbg_8h.html#aeb0d52a1bbff433affc6754a33005e73":[9,0,1,0,2,4],
-"vcom__monitor__dbg_8h_source.html":[9,0,1,0,2],
 "vcom__monitor__pre__stat_8h.html":[9,0,1,0,3],
 "vcom__monitor__pre__stat_8h.html#a0c56b9fbf3a462ffd99b29824ff58058":[9,0,1,0,3,8],
 "vcom__monitor__pre__stat_8h.html#a277898027d5b8fc40d6faf91905a5cce":[9,0,1,0,3,1],
